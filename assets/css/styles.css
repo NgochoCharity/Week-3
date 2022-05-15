@@ -36,17 +36,33 @@ button:hover{
     background-color:rgb(241,144,183) ;
     color: white;
     transition: 1s;
-}
+}*/
 
 #retake{
     background-color:rgb(166, 62, 197) ;
+    margin: 150px 0 50px 250px;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 40px;
+
 }
 
 #retake:hover{
     background-color: rgb(241,144,183);
     color: white;
     transition: 1s;
-} */
+    
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
 
 .slide{
     position: absolute;
@@ -103,3 +119,5 @@ margin: 100px 0 20px 0;
     display: block;
     margin-bottom: 10px;
   }
+
+  
