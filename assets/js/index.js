@@ -59,7 +59,7 @@
           numCorrect++;
   
           // color the answers purple
-          answerContainers[questionNumber].style.color = 'purple';
+          answerContainers[questionNumber].style.color = 'green';
         }
         // if answer is wrong or blank
         else{
@@ -82,6 +82,7 @@
       }
       else{
         previousButton.style.display = 'inline-block';
+    
       }
       if(currentSlide === slides.length-1){
         nextButton.style.display = 'none';
