@@ -97,3 +97,55 @@
       const quizContainer = document.getElementById('quiz');
       const resultsContainer = document.getElementById('results');
       const submitButton = document.getElementById('submit');    
+      const myQuestions = [
+        
+        {
+          question: "What is CSS in full?",
+          answers: {
+            a: "Coding Style Sheets",
+            b: "Cascading Style Sheets",
+            c: "Cascading Strand Sheets"
+          },
+          correctAnswer: "b"
+        },
+        {
+          question: "Who invented the computer?",
+          answers: {
+            a: "Charles Babbage",
+            b: "Issac Newton",
+            c: "Alexander Graham"
+          },
+          correctAnswer: "a"
+        },
+        {
+          question: "What does HTML stand for?",
+          answers: {
+            a: "How To Master Languages",
+            b: "HyperText Markdown Language",
+            c: "HyperText Markup Language",
+      
+          },
+          correctAnswer: "c"
+        },
+        {
+          question: "Which is not a type of CSS?",
+          answers: {
+            a: "Inline CSS",
+            b: "Hover CSS",
+            c: "Embedded CSS",
+      
+          },
+          correctAnswer: "b"
+        },
+        {
+          question: "Which of the following is not a JS data type?",
+          answers: {
+            a: "strings",
+            b: "Boolean",
+            c: "Function",
+      
+          },
+          correctAnswer: "c"
+        }
+      ];
+    
