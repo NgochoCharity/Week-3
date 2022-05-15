@@ -85,3 +85,12 @@
               submitButton.style.display = 'none';
             }
           }
+
+     function showNextSlide() {
+            showSlide(currentSlide + 1);
+          }
+        
+     function showPreviousSlide() {
+            showSlide(currentSlide - 1);
+          }
+        
