@@ -15,9 +15,11 @@ button {
     background-color:rgb(241,144,183) ;
     border: none;
     border-radius: 10px;
-    padding: 20px 30px 20px 30px;
+    padding: 15px 30px 15px 30px;
     color: black;
     font-size: 20px;
+    display: flex;
+    cursor: pointer;
 }
 
 button:hover{
@@ -26,7 +28,7 @@ button:hover{
     transition: 1s;
 }
 
-#start{
+/* #start{
     background-color:rgb(166, 62, 197) ;
     
 }
@@ -44,7 +46,7 @@ button:hover{
     background-color: rgb(241,144,183);
     color: white;
     transition: 1s;
-}
+} */
 
 .slide{
     position: absolute;
@@ -61,4 +63,43 @@ button:hover{
     z-index: 2;
   }
 
-  
+   .nextbutton  {
+    margin: 100px 120px 20px 220px;   
+  }
+
+  #previous {
+    margin: 100px 100px 20px 60px;
+  }
+  .quiz-container{
+      position: relative;
+      height: 200px;
+  }
+
+  #next{
+margin: 100px 0 20px 0;
+  }
+
+  #submit{
+      margin: 0 0 0 50px;
+  }
+  .question{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 100px;
+    line-height: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .answers label{
+    display: block;
+    margin-bottom: 10px;
+  }
