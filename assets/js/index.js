@@ -174,3 +174,4 @@
     nextButton.addEventListener("click", showNextSlide);
   })();
   
+ 
