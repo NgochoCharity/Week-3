@@ -28,15 +28,7 @@ button:hover{
     transition: 1s;
 }
 
-/* #start{
-    background-color:rgb(166, 62, 197) ;
-    
-}
-#start:hover{
-    background-color:rgb(241,144,183) ;
-    color: white;
-    transition: 1s;
-}*/
+
 
 #retake{
     background-color:rgb(166, 62, 197) ;
@@ -118,6 +110,16 @@ margin: 100px 0 20px 0;
   .answers label{
     display: block;
     margin-bottom: 10px;
+  }
+  
+  .flex{
+    display: flex;
+  }
+
+  #results{
+color: rgb(166, 62, 197);
+padding: 50px 0 0 220px;
+font-size: 30px;
   }
 
   
