@@ -64,3 +64,24 @@
             answerContainers[questionNumber].style.color = 'red';
           }
         });
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active-slide');
+            slides[n].classList.add('active-slide');
+            currentSlide = n;
+            if(currentSlide === 0){
+              previousButton.style.display = 'none';
+              nextButton.style.display='none';
+            }
+            else{
+              previousButton.style.display = 'inline-block';
+            }
+            if(currentSlide === slides.length-1){
+              nextButton.style.display = 'none';
+              submitButton.style.display = 'inline-block';
+            }
+            else{
+              nextButton.style.display = 'inline-block';
+              submitButton.style.display = 'none';
+            }
+          }
