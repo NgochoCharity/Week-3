@@ -10,7 +10,17 @@ section{
     margin:auto;
     margin-top: 120px;
 }
-
+/* responsiveness of section */
+@media only screen and (max-width:530px){
+  section{
+    width: 70%;
+  }
+}
+@media only screen and (max-width:670px){
+  section{
+width: 70%;
+  }
+}
 button {
     background-color:rgb(241,144,183) ;
     border: none;
@@ -20,6 +30,28 @@ button {
     font-size: 20px;
     display: flex;
     cursor: pointer;
+}
+/* responsiveness of buttons */
+@media only screen and (max-width:1043px){
+  button{
+    padding: 10px 20px 10px 20px;
+  }
+}
+@media only screen and (max-width:926px){
+  button{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width:800px){
+  button{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width:400px){
+  button{
+    font-size: xx-small;
+    padding: 5px 10px 5px 10px;
+  }
 }
 
 button:hover{
@@ -78,6 +110,17 @@ a:hover{
   #previous {
     margin: 100px 100px 20px 60px;
   }
+  /* responsiveness of previous button */
+  @media only screen and (max-width:1043px){
+    #previous{
+      margin: 100px 40px 20px 30px;
+    }
+  }
+  @media only screen and (max-width:940px){
+    #previous{
+      margin: 100px 10px 20px 10px;
+    }
+  }
   .quiz-container{
       position: relative;
       height: 200px;
@@ -86,6 +129,23 @@ a:hover{
   #next{
 margin: 100px 0 20px 0;
   }
+  /* responsiveness of next button */
+  @media only screen and (max-width:1043px){
+    .nextbutton{
+      margin: 100px 0 20px 40px;
+    }
+  }
+
+@media only screen and (max-width:940px){
+  .nextbutton{
+    margin: 100px 30px 20px 30px;
+  }
+}
+@media only screen and (max-width:460px){
+  .nextbutton{
+    margin: 100px 0 20px 0;
+  }
+}
 
   #submit{
       margin: 0 0 0 50px;
@@ -98,6 +158,17 @@ margin: 100px 0 20px 0;
     text-align: center;
     margin-right: 20px;
   }
+  @media only screen and (max-width:640px){
+    .questions{
+      font-size: 5px;
+      margin-bottom: 0;
+    }
+  }
+  @media only screen and (max-width:530px){
+    .questions{
+      font-size: small;
+    }
+  }
   .answers {
     margin-bottom: 20px;
     text-align: left;
@@ -106,6 +177,44 @@ margin: 100px 0 20px 0;
     line-height: 30px;
     margin-top: 30px;
     cursor: pointer;
+  }
+  /*responsiveness of answers  */
+  @media only screen and (max-width:830px){
+    .answers{
+      margin-left: 80px;
+    }
+  }
+  @media only screen and (max-width:750px){
+    .answers{
+      margin-left: 80px;
+    }
+  }
+  @media only screen and (max-width:680px){
+    .answers{
+      margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width:550px){
+    .answers{
+      margin-left: 10px;
+    }
+  }
+  @media only screen and (max-width:530px){
+    .answers{
+      font-size: small;
+    }
+  }
+  @media only screen and (max-width:520px){
+    .answers{
+      font-size: 10px;
+      line-height:20px ;
+      margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width:350px){
+    .answers{
+      font-size: xx-small;
+    }
   }
   .answers label{
     display: block;
@@ -120,6 +229,49 @@ margin: 100px 0 20px 0;
 color: rgb(166, 62, 197);
 padding: 50px 0 0 220px;
 font-size: 30px;
+  }
+  /* responsiveness of results */
+  @media only screen and (max-width:1000px){
+    #results{
+      padding: 50px 0 0 200px;
+    
+    }
+  }
+  @media only screen and (max-width:940px){
+    #results{
+      padding: 50px 0 0 180px;
+    
+    }
+  }
+  @media only screen and (max-width:900px){
+    #results{
+      padding: 50px 0 0 150px;
+    
+    }
+  }
+  @media only screen and (max-width:800px){
+    #results{
+      padding: 50px 0 0 100px;
+    
+    }
+  }
+  @media only screen and (max-width:620px){
+    #results{
+      padding: 50px 0 0 80px;
+    
+    }
+  }
+  @media only screen and (max-width:550px){
+    #results{
+      padding: 50px 0 0 50px;
+    
+    }
+  }
+  @media only screen and (max-width:520px){
+    #results{
+      font-size: 20px;
+    
+    }
   }
 
   
